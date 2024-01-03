@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Cloud Architecture & Microservices Consulting</title>
+  <meta name="description" content="Taliferro Group: Expert in Cloud Architecture & Microservices. Scale your business with our efficient cloud solutions for enhanced agility." />
+  <meta name="keywords"
+    content="cloud architecture consulting, microservices, scalable cloud solutions, Taliferro Group, cloud services, microservices architecture, agile development, cloud efficiency, cloud scalability, Seattle IT firm" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="author" content="Taliferro Group">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="content-language" content="en">
+  <meta property="og:title" content="Cloud Architecture & Microservices Consulting | Taliferro Group">
+  <meta property="og:description" content="Expert Cloud Architecture and Microservices Consulting by Taliferro Group.">
+  <meta property="og:image" content="https://taliferro.com/assets/images/taliferro-group-logo.png">
+  <meta property="og:url" content="https://cloud-architecture-consulting.taliferro.com/index.html">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@TaliferroLLC" />
+  <meta name="twitter:title" content="Cloud Architecture & Microservices Consulting | Taliferro Group" />
+  <meta name="twitter:description" content="Expert Cloud Architecture and Microservices Consulting by Taliferro Group." />
+  <meta name="twitter:image" content="https://taliferro.com/assets/images/taliferro-group-logo.png" />
+  <meta name="twitter:url" content="https://cloud-architecture-consulting.taliferro.com/index.html" />
+  <link rel="canonical" href="https://cloud-architecture-consulting.taliferro.com/index.html">
+  <meta name="msvalidate.01" content="4213E438640647223B0D9E429461D0A1" />
+  <meta content="telephone=no" name="format-detection" />
+  <meta name="HandheldFriendly" content="true" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,300;1,400;1,500&amp;display=swap" media="print"
+    onload="this.media='all'" />
+  <link rel="stylesheet" type="text/css" href="css/vendor.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="manifest" href="img/general/manifest.json" />
+  <link rel="icon" type="image/x-icon" href="img/general/favicon.ico">
+  <link rel="apple-touch-icon" href="img/general/apple-touch-icon.png">
+  <link rel='mask-icon' href='img/general/safari-pinned-tab.svg' color='#5195d9'>
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Taliferro Group Cloud Architecture Consulting",
+    "image": "https://cloud-architecture-consulting.taliferro.com/img/assets/projects/project3/cloud-architecture-depiction.webp",
+    "@id": "https://cloud-architecture-consulting.taliferro.com/index.html",
+    "url": "https://cloud-architecture-consulting.taliferro.com/index.html",
+    "description": "Taliferro Group offers expert Cloud Architecture Consulting services, helping businesses to optimize their cloud infrastructure for efficiency and scalability. Our team of specialists provides solutions tailored to your unique business needs.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1424 11th Ave STE 400",
+      "addressLocality": "Seattle",
+      "addressRegion": "WA",
+      "postalCode": "98122",
+      "addressCountry": "USA"
+    },
+    "telephone": "+12068098529",
+    "email": "info@taliferro.com"
+  }
+</script>
+</head>
+
+<body>
+  <div data-barba="wrapper">
+    <!-- <div class="preloader preloader_header-menu-hidden mask-reveal" id="js-preloader" data-arts-theme-text="light" data-arts-preloader-logo="secondary">
+      <div class="mask-reveal__layer mask-reveal__layer-1 bg-dark-1">
+        <div class="mask-reveal__layer mask-reveal__layer-2">
+          <div class="preloader__wrapper">
+            <div class="preloader__counter preloader__counter_started me-auto mt-auto underline js-preloader__counter">00%</div>
+            <div class="preloader__content ms-auto mt-auto js-preloader__content">
+              <div class="h6">Loading Content ...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <header class="header header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="dark" data-arts-header-sticky-theme="bg-light-1" data-arts-header-logo="primary"
+      data-arts-header-sticky-logo="primary" data-arts-header-sticky-theme-text="dark" data-arts-header-overlay-theme-text="light">
+      <div class="header__container header__controls">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-auto header__col header__col-left"><a class="logo" href="/">
+              <div class="logo__wrapper-img">
+                <img class="logo__img-primary" src="img/general/taliferro-group-black.png" alt="Taliferro Group" width="120" />
+                <img class="logo__img-secondary" src="img/general/taliferro-group-white.png" alt="Taliferro Group" width="120" />
+              </div>
+            </a>
+          </div>
+          <div class="col-auto header__col d-flex align-items-center">
+            <div class="ms-auto header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+              data-arts-cursor-hide-native="true">
+              <div class="header__burger-line"></div>
+              <div class="header__burger-line"></div>
+              <div class="header__label header__burger-label">
+                <div class="header__label-burger header__label-burger_inner header__label-burger_closed-open">Menu</div>
+                <div class="header__label-burger header__label-burger_inner header__label-burger_closed-hover">Open</div>
+                <div class="header__label-burger header__label-burger_inner header__label-burger_opened-open">Close</div>
+                <div class="header__label-burger header__label-burger_inner header__label-burger_opened-hover">Close</div>
+              </div>
+            </div>
+          </div>
+          <div class="header__overlay-menu-back" id="js-submenu-back" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+            data-arts-cursor-hide-native="true"><i class="material-icons">arrow_back</i>
+            <div class="header__label header__label_status">
+              <div class="js-header-label-submenu"></div>
+            </div>
+            <div class="header__label header__label_opened-back">Back</div>
+          </div>
+          <div class="header__overlay-menu-info header__label header__label_side">Our Other Sites</div>
+        </div>
+      </div>
+      <div class="header__wrapper-overlay-menu" data-arts-theme-text="light">
+        <div class="mask-reveal w-100 h-100">
+          <div class="mask-reveal__layer mask-reveal__layer-1 bg-dark-1">
+            <div class="mask-reveal__layer mask-reveal__layer-2">
+              <div class="row align-items-center h-100">
+                <div class="header__menu-column col-lg-7 order-lg-2 h-100 d-flex flex-column position-relative bg-dark-2">
+                  <div class="header__menu-gradient header__menu-gradient_top"></div>
+                  <div class="header__scroll-container js-header-smooth-scroll-container overflow pointer-events-auto">
+                    <div class="header__wrapper-menu"> We Also Speicalize In ... <ul class="menu-overlay js-menu-overlay">
+                        <li class="menu-item-has-children"><a href="https://api-consulting.taliferro.com" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">API</span>
+                              <div class="menu-overlay__heading h2">Design</div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="menu-item-has-children current-menu-ancestor"><a href="https://cloud-architecture-consulting.taliferro.com" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">Cloud</span>
+                              <div class="menu-overlay__heading h2">Architecture</div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="menu-item-has-children"><a href="https://machine-learning.taliferro.com" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">Machine</span>
+                              <div class="menu-overlay__heading h2">Learning</div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="menu-item-has-children"><a href="https://website-development.taliferro.com" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">Software</span>
+                              <div class="menu-overlay__heading h2">Development</div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="menu-item-has-children"><a href="https://e-commerce.taliferro.com" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">eCommerce</span>
+                              <div class="menu-overlay__heading h2">Optimization</div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="menu-item-has-children"><a href="https://agile.taliferro.com" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1">Agile</span>
+                              <div class="menu-overlay__heading h2">Coaching</div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="header__menu-gradient header__menu-gradient_bottom"></div>
+                </div>
+                <div class="header__slider-column col-lg-5 order-lg-1 h-100 d-none d-lg-flex flex-column position-relative bg-dark-1">
+                  <div class="header__wrapper-slider">
+                    <div class="header__label d-lg-none mb-4">Other Taliferro Sites</div>
+                    <div class="slider-menu swiper-container js-slider-menu" data-speed="1200" data-centered-slides="true" data-drag-mouse="true" data-drag-cursor="true" data-drag-label="Drag"
+                      data-drag-hide-cursor="true" data-drag-class="slider-projects-fullscreen__images_scale-up" data-mousewheel-enabled="true" data-keyboard-enabled="true">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image" href="https://taliferro.com" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/websites/taliferro-group.webp" width="1920" height="1280" alt="Taliferro Group Main Website" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block" href="https://taliferro.com" data-arts-hover="trigger" data-arts-cursor="true"
+                                data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Taliferro Group Main</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li><a href="#">Company Overview</a>
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image" href="https://api-certification.talierro.com" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/websites/api-security-check.webp" width="1920" height="1280" alt="API Security Certification Website" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block" href="https://api-certification.talierro.com" data-arts-hover="trigger"
+                                data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">API Certification</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li><a href="#">API Security Check</a>
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image" href="https://api-consulting.taliferro.com" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/websites/api-consulting.webp" width="1920" height="1280" alt="API Consultation Website" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block" href="https://api-consulting.taliferro.com" data-arts-hover="trigger"
+                                data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">API Consulting</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li><a href="https://api-consulting.taliferro.com">Data and API Design</a>
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image" href="https://e-commerce.taliferro.com" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/websites/e-commerce-consulting.webp" width="1920" height="1280" alt="eCommerce Consulting" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block" href="https://e-commerce.taliferro.com" data-arts-hover="trigger"
+                                data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">eCommerce</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li><a href="https://e-commerce.taliferro.com">Consulting and Optimization</a>
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image" href="https://website-development.taliferro.com" data-arts-hover="trigger"
+                              data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/websites/website-development.webp" width="1920" height="1280" alt="Website and Bespoke Software Development Website" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block" href="https://website-development.taliferro.com" data-arts-hover="trigger"
+                                data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Website and Software</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li><a href="https://website-development.taliferro.com">Development</a>
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image" href="https://cloud-architecture-consulting.taliferro.com" data-arts-hover="trigger"
+                              data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/websites/cloud-architecture.webp" width="1920" height="1280" alt="Cloud Architecture Consultation" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block" href="https://cloud-architecture-consulting.taliferro.com"
+                                data-arts-hover="trigger" data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4"
+                                data-arts-cursor-color="#fff" data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Cloud Architecture</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li><a href="https://cloud-architecture-consulting.taliferro.com">Microservices</a>
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image" href="https://machine-learning.taliferro.com" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/websites/machine-learning.webp" width="1920" height="1280" alt="Machine Learning Consultation Website" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block" href="https://machine-learning.taliferro.com" data-arts-hover="trigger"
+                                data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Machine Learning</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li><a href="https://machine-learning.taliferro.com">Artificial Intelligence</a>
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image" href="https://agile.taliferro.com" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/websites/agile-project-coaching.webp" width="1920" height="1280" alt="Agile Project Coaching" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block" href="https://agile.taliferro.com" data-arts-hover="trigger"
+                                data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="View Website" data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Agile</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li><a href="https://agile.taliferro.com">Project Management</a>
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="is-dragging__blocker"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="js-smooth-scroll" id="page-wrapper" data-barba="container">
+      <main class="page-wrapper__content">
+        <section class="section section-masthead text-center pt-xlarge bg-light-1" data-arts-os-animation="true">
+          <div class="container-fluid">
+            <h1 class="xl section-masthead__heading d-inline-block my-0 arts-split-text js-arts-split-text js-transition-heading" data-arts-split-text="lines,words,chars"
+              data-arts-split-text-set="chars" data-arts-split-text-set-direction="y" data-arts-split-text-set-distance="100%" data-arts-split-text-overflow-wrap="lines">Cloud Architecture &
+              Microservices Mastery </h1>
+            <div class="section-masthead__subheading mt-xsmall arts-split-text js-arts-split-text" data-arts-split-text="lines, words" data-arts-split-text-set="words"
+              data-arts-split-text-overflow-wrap="lines">
+              <ul class="post-meta post-meta_mini">
+                <li>Scalable Solutions <div class="post-meta__divider section-masthead__meta-divider"></div>
+                </li>
+                <li>Agile Innovation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-masthead__wrapper-content mt-small pb-small">
+            <div class="section__content">
+              <div class="container">
+                <div class="row mt-medium justify-content-center">
+                  <div class="col col-lg-8">
+                    <div class="mask-reveal js-transition-img js-arts-parallax overflow" data-arts-parallax-factor-y="0.15">
+                      <div class="mask-reveal__layer mask-reveal__layer-1">
+                        <div class="mask-reveal__layer mask-reveal__layer-2">
+                          <div class="js-arts-parallax__scrub js-transition-img__transformed-el"><img src="img/assets/projects/project3/cloud-architecture-depiction.webp" width="1280" height="1920"
+                              alt="Your Choice for Cloud Architecture Guidance" /></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-masthead__info container text-center">
+                <div class="row justify-content-center mt-small" data-arts-os-animation="true" data-arts-os-animation-name="animateText">
+                  <div class="col-lg-8">
+                    <div class="section-masthead__properties arts-split-text js-arts-split-text" data-arts-split-text="words" data-arts-split-text-set="words"
+                      data-arts-split-text-overflow-wrap="words">
+                      <ul class="list-dots small">
+                        <li>Scalability</li>
+                        <li>Efficiency</li>
+                        <li>Innovation</li>
+                        <li>Reliability</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section__bg top-offset top-offset_large js-transition-bg bg-portfolio-3" data-background-color="var(--color-portfolio-3)"></div>
+          </div>
+        </section>
+        <section class="d-flex flex-wrap align-items-center">
+          <div class="col-lg-6 py-large container-fluid ps-lg-0">
+            <div class="section_w-container-right text-start">
+              <section class="section section-content">
+                <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines"
+                  data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                  <h2 class="h2 mb-lg-0 mb-3">Scalable Cloud Solutions</h2>
+                  <p class="p-2">Discover the pinnacle of scalability with Taliferro Group's cloud architecture services. Our approach ensures your digital infrastructure expands seamlessly with your
+                    business growth, enabling limitless possibilities. </p>
+                  <p class="p-2">Experience robust, flexible solutions tailored to meet evolving demands, and drive your enterprise towards unprecedented scalability.</p>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <section class="section section-image section-content section_h-800">
+              <div class="mask-reveal js-arts-parallax overflow w-100 h-100" data-arts-parallax-factor-y="0.15">
+                <div class="mask-reveal__layer mask-reveal__layer-1">
+                  <div class="mask-reveal__layer mask-reveal__layer-2">
+                    <div class="js-arts-parallax__scrub w-100 h-100"><img class="of-cover lazy-bg" src="#" data-src="img/assets/projects/project3/cloud-architecture-depiction-1.webp" width="1024"
+                        height="800" alt="Expanding cloud architecture infrastructure illustration" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <section class="d-flex flex-wrap align-items-center bg-light-3">
+          <div class="col-lg-6 order-lg-2 py-large container-fluid pe-lg-0">
+            <div class="section_w-container-left text-start">
+              <section class="section section-content">
+                <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines"
+                  data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                  <h2 class="h2 mb-lg-0 mb-3">Microservices Architecture</h2>
+                  <p>Embrace agility and innovation with our microservices architecture consulting. At Taliferro Group, we specialize in decomposing traditional monolithic systems into dynamic,
+                    independent microservices. </p>
+                  <p>This change leads to faster deployment, improved resilience, and enhanced flexibility, positioning your business at the forefront of technological evolution.</p>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <section class="section section-image section-content section_h-800">
+              <div class="mask-reveal js-arts-parallax overflow w-100 h-100" data-arts-parallax-factor-y="0.15">
+                <div class="mask-reveal__layer mask-reveal__layer-1">
+                  <div class="mask-reveal__layer mask-reveal__layer-2">
+                    <div class="js-arts-parallax__scrub w-100 h-100"><img class="of-cover lazy-bg" src="#" data-src="img/assets/projects/project3/cloud-architecture-depiction-2.webp" width="1024"
+                        height="800" alt="Microservices as interconnected modules graphic" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <section class="section section-content pt-large pb-xsmall text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines"
+                  data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                  <div class="section__headline headline-reveal mb-md-4 mb-3" data-arts-os-animation="true" data-arts-os-animation-name="animateHeadline"></div>
+                  <h2 class="h2 my-0">Key Service Deliverables</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section-slider-images pb-large container">
+          <div>
+            <div class="slider slider-images js-slider-images text-center">
+              <div class="slider-images__slider swiper-container js-slider-images__slider" data-auto-height="true" data-autoplay-enabled="true" data-autoplay-delay="6000"
+                data-slides-per-view-tablet="1.5" data-slides-per-view-mobile="1.25" data-centered-slides="false" data-centered-slides-tablet="true" data-centered-slides-mobile="true"
+                data-drag-mouse="true" data-drag-cursor="true" data-drag-label="Drag" data-drag-hide-cursor="true" data-drag-class="slider-images_scale-up" data-keyboard-enabled="true"
+                data-touch-ratio="2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slider-images__slide overflow">
+                    <a href="https://blog.taliferro.com/dec2023/dec212023/taliferro-group-pioneering-cloud-architecture-for-modern-ceos.html">
+                      <div class="mask-reveal overflow" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'right'}">
+                        <div class="mask-reveal__layer mask-reveal__layer-1">
+                          <div class="mask-reveal__layer mask-reveal__layer-2"><img class="swiper-lazy" src="#"
+                              data-src="https://blog.taliferro.com/img/blog/taliferro-group-pioneering-cloud-architecture-for-modern-ceos.webp" width="1120" height="670"
+                              alt="Read about Taliferro Group Pioneering Cloud Architecture for Modern CEOs" />
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide slider-images__slide overflow">
+                    <a href="https://blog.taliferro.com/feb2023/feb042023/google-cloud-architecture-fundamentals-tips-and-tricks.html">
+                      <div class="mask-reveal overflow" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'right'}">
+                        <div class="mask-reveal__layer mask-reveal__layer-1">
+                          <div class="mask-reveal__layer mask-reveal__layer-2"><img class="swiper-lazy" src="#"
+                              data-src="https://blog.taliferro.com/img/blog/google-cloud-architecture-fundamentals-tips-and-tricks.webp" width="1120" height="670"
+                              alt="Read about Mastering Google Cloud Platform Architecture" />
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide slider-images__slide overflow">
+                    <a href="https://blog.taliferro.com/jul2023/jul222023/how-to-discriminate-among-public-private-and-hybrid-cloud-solutions.html">
+                      <div class="mask-reveal overflow" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'right'}">
+                        <div class="mask-reveal__layer mask-reveal__layer-1">
+                          <div class="mask-reveal__layer mask-reveal__layer-2"><img class="swiper-lazy" src="#"
+                              data-src="https://blog.taliferro.com/img/blog/how-to-discriminate-among-public-private-and-hybrid-cloud-solutions.webp" width="1120" height="670"
+                              alt="Read about Choosing the Right Cloud Solution: A Strategic Guide" />
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide slider-images__slide overflow">
+                    <a href="https://blog.taliferro.com/mar2023/mar172023/questions-to-ask-starting-a-cloud-project.html">
+                      <div class="mask-reveal overflow" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'right'}">
+                        <div class="mask-reveal__layer mask-reveal__layer-1">
+                          <div class="mask-reveal__layer mask-reveal__layer-2"><img class="swiper-lazy" src="#"
+                              data-src="https://blog.taliferro.com/img/blog/questions-to-ask-starting-a-cloud-project.webp" width="1120" height="670"
+                              alt="Read about Key Questions for Successful Cloud Architecture" />
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide slider-images__slide overflow">
+                    <a href="https://blog.taliferro.com/may2023/may162023/cloud-architecture-the-marriage-of-art-and-science.html">
+                      <div class="mask-reveal overflow" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'right'}">
+                        <div class="mask-reveal__layer mask-reveal__layer-1">
+                          <div class="mask-reveal__layer mask-reveal__layer-2"><img class="swiper-lazy" src="#"
+                              data-src="https://blog.taliferro.com/img/blog/cloud-architecture-the-marriage-of-art-and-science.webp" width="1120" height="670"
+                              alt="Read About The Art and Science of Azure Implementation" />
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="is-dragging__blocker"></div>
+              </div>
+              <div class="slider-images__captions swiper-container js-slider-images__captions mt-xsmall" data-slides-per-view="3" data-slides-per-view-tablet="1.5" data-slides-per-view-mobile="1.25"
+                data-centered-slides="true" data-centered-slides-tablet="true" data-centered-slides-mobile="true" data-arts-os-animation="true" data-arts-os-animation-name="animateJump">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide pt-3 js-arts-cursor-highlight">
+                    <div class="slider-images__caption h6">Taliferro Group<br> Pioneering Cloud Architecture for Modern CEOs</div>
+                  </div>
+                  <div class="swiper-slide pt-3 js-arts-cursor-highlight">
+                    <div class="slider-images__caption h6">Mastering Google Cloud<br> Platform Architecture</div>
+                  </div>
+                  <div class="swiper-slide pt-3 js-arts-cursor-highlight">
+                    <div class="slider-images__caption h6">Choosing the Right Cloud Solution<br> A Strategic Guide</div>
+                  </div>
+                  <div class="swiper-slide pt-3 js-arts-cursor-highlight">
+                    <div class="slider-images__caption h6">Key Questions<br> for Successful Cloud Architecture</div>
+                  </div>
+                  <div class="swiper-slide pt-3 js-arts-cursor-highlight">
+                    <div class="slider-images__caption h6">The Art and Science of <br>Azure Implementation</div>
+                  </div>
+                  <div class="slider-images__underline js-slider-images__underline"></div>
+                </div>
+              </div>
+              <div class="slider__arrow slider__arrow_absolute slider__arrow_left js-slider__arrow-prev" data-arts-os-animation="true" data-arts-os-animation-name="animateJump"
+                data-arts-os-animation-params="{x: -30, y: 0}">
+                <div class="slider__arrow material-icons js-slider__arrow-prev" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                  data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
+              </div>
+              <div class="slider__arrow slider__arrow_absolute slider__arrow_right js-slider__arrow-next" data-arts-os-animation="true" data-arts-os-animation-name="animateJump"
+                data-arts-os-animation-params="{x: 30, y: 0}">
+                <div class="slider__arrow material-icons js-slider__arrow-next" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                  data-arts-cursor-hide-native="true">keyboard_arrow_right</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section-offset container-fluid bg-portfolio-3 offset_top pb-large mt-large">
+          <div class="section-offset__content">
+            <section class="section section-video section-content js-gallery">
+              <div class="section-video__container section section_h-700 section-content__image"><a class="section-video__link js-arts-cursor-no-highlight" href="https://vimeo.com/886303824"
+                  data-autoplay="data-autoplay">
+                  <div class="section-video__link-inner" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="0"
+                    data-arts-cursor-label="Play" data-arts-cursor-color="#fff" data-arts-cursor-hide-native="true" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                    <div class="section-video__icon material-icons">play_arrow</div>
+                  </div>
+                </a>
+                <div class="section__bg">
+                  <div class="mask-reveal js-arts-parallax overflow w-100 h-100" data-arts-parallax-factor-y="0.15" data-arts-os-animation="true" data-arts-os-animation-name="animateMask"
+                    data-arts-os-animation-params="{direction: 'up'}">
+                    <div class="mask-reveal__layer mask-reveal__layer-1">
+                      <div class="mask-reveal__layer mask-reveal__layer-2">
+                        <div class="js-arts-parallax__scrub w-100 h-100"><img class="of-cover lazy-bg" src="#" data-src="img/assets/projects/project3/cloud-architecture-depiction-3-4.webp"
+                            width="1920" height="1280" alt="Cloud Architecture Consultation Video Image" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <div class="section pb-large bg-portfolio-3">
+          <div class="container">
+            <div class="row row-wide justify-content-between">
+              <div class="col-lg-6 col-wide">
+                <section class="section section-content">
+                  <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines"
+                    data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <h2 class="h2 mb-lg-0 mb-3">Upgrade Your Business Now</h2>
+                  </div>
+                </section>
+              </div>
+              <div class="col-lg-6 col-wide">
+                <section class="section section-properties section-list section-content">
+                  <div class="section-list__item">
+                    <div class="section-list__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines"
+                      data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                      <div class="h6">Begin Your Digital Revolution</div>
+                      <p class="mt-2 p-2">Embark on a journey of digital transformation with Taliferro Group. Our expertise in cloud architecture and microservices is your gateway to unparalleled
+                        scalability, efficiency, and innovation. </p>
+                      <p>Don't let technology be a barrier - let it be your catalyst for growth and success. Contact us today to explore how we can elevate your business into the cloud era. Ready to
+                        innovate? We're here to guide you every step of the way.</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="section section-testimonials bg-dark-2 py-large" data-arts-theme-text="light">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-auto">
+                <div class="slider-testimonials__wrapper-circle mb-4" data-arts-os-animation="true" data-arts-os-animation-name="animateJump"><img class="slider-testimonials__quote"
+                    src="img/general/quote-black.svg" width="50" height="44" alt="Testimonials of our Cloud Architecture work" />
+                  <svg class="svg-circle" viewBox="0 0 60 60">
+                    <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                  </svg>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="slider slider-testimonials swiper-container js-slider" data-autoplay-enabled="true" data-autoplay-delay="9000" data-transition="text">
+                  <div class="swiper-wrapper">
+                    <!-- item -->
+                    <div class="swiper-slide">
+                      <div class="slider__text slider-testimonials__text h3 js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText"
+                        data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">It's truly remarkable, the caliber of work Taliferro Group delivers.
+                        It's surprising that such high-quality services haven't captured even more leads.</div>
+                      <div class="slider__text slider-testimonials__author mt-4 js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText"
+                        data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">Adrian Davis</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slider DOTS -->
+                <div class="slider__dots js-slider__dots" data-arts-os-animation="true" data-arts-os-animation-name="animateJump">
+                  <div class="slider__dot"></div>
+                </div>
+                <!-- - slider DOTS -->
+              </div>
+              <div class="col-lg-1 align-self-center">
+                <!-- slider ARROWS -->
+                <div class="slider__wrapper-arrows slider__wrapper-arrows_vertical d-lg-flex d-none" data-arts-os-animation="true" data-arts-os-animation-name="animateJump">
+                  <div class="slider__arrow material-icons js-slider__arrow-prev" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                    data-arts-cursor-hide-native="true">keyboard_arrow_up</div>
+                  <div class="slider__arrow material-icons js-slider__arrow-next" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                    data-arts-cursor-hide-native="true">keyboard_arrow_down</div>
+                </div>
+                <!-- - slider ARROWS -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer pt-medium bg-dark-1" id="page-footer" data-arts-theme-text="light" data-arts-fixed-reveal="data-arts-fixed-reveal" data-arts-fixed-reveal-from="-5vh"
+          data-arts-fixed-reveal-from-opacity="25">
+          <div class="footer__inner">
+            <div class="container">
+              <div class="row pb-md-3">
+                <div class="col">
+                  <section class="widget widget_text">
+                    <div class="textwidget">
+                      <h3>Connect with Taliferro Group for Cloud Solutions</h3>
+                      <p>Explore the horizons of cloud technology with Taliferro Group. Our expertise in cloud architecture is your pathway to a more efficient, secure, and scalable business
+                        infrastructure. <br><br>Stay updated with our latest insights and breakthroughs in cloud solutions. Follow us on social media, subscribe for industry news, or get in touch for
+                        a consultation. Together, let's build a cloud strategy that propels your business into the future.</p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="row justify-content-between position-relative pt-md-5 pt-4 pb-md-3">
+                <div class="footer__divider"></div>
+                <div class="col-lg-3 col-sm-6">
+                  <section class="widget widget_nav_menu">
+                    <h2 class="widgettitle">Company</h2>
+                    <div>
+                      <ul class="menu">
+                        <li class="menu-item"><a href="https://blog.taliferro.com/" target="_blank">Blog</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/assets/files/taliferro-group-capability-statement.pdf" target="_blank">Capability Statement</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/assets/files/taliferro-brochure.pdf" target="_blank">Brochure</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/refund-policy" aria-label="Refund Policy" target="_blank">Refund Policy</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/privacy-policy" aria-label="Privacy Policy" target="_blank">Privacy Policy</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/terms-of-service" aria-label="Terms" target="_blank">Terms</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <section class="widget widget_nav_menu">
+                    <h2 class="widgettitle">Case Studies</h2>
+                    <div>
+                      <ul class="menu">
+                        <li class="menu-item"><a href="https://taliferro.com/assets/files/lis-case-study.pdf" target="_blank">Patient-Centric Biotechnology</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/assets/files/e-commerce-cloud-transformation.pdf" target="_blank">Streamlining Retail Operations</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/assets/files/eyeglass-pop-up-e-commerce-case-study.pdf" target="_blank">Point of Sale (POS) Solutions</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/assets/files/cloud-sustainability-case-study-food-and-beverage.pdf" target="_blank">Sustainable Cloud Technology </a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/assets/files/ssm-case-study.pdf" target="_blank">Social Media Data</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/assets/files/operational-efficiency-case-study.pdf" target="_blank">Operational Efficiency</a>
+                        </li>
+                        <li class="menu-item"><a href="https://taliferro.com/assets/files/blair-capital-management.pdf" target="_blank">Integration</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <section class="widget widget_text">
+                    <h2 class="widgettitle">Office</h2>
+                    <div class="textwidget">
+                      <p>1424 11th Ave STE 400 <br>Seattle<br>WA 98122<br>USA</p>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <section class="widget widget_text">
+                    <h2 class="widgettitle">Contact</h2>
+                    <div class="textwidget">
+                      <p><a href="mailto:info@taliferro.com">info@taliferro.com</a><br>+1 206.809.8529</p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="row justify-content-between align-items-center position-relative pt-4">
+                <div class="footer__divider"></div>
+                <div class="col-lg-4 order-lg-2 text-lg-end text-center">
+                  <section class="widget widget_kinsey_social">
+                    <ul class="social">
+                      <li class="social__item"><a href="https://www.tiktok.com/@taliferrogroup" target="_blank" aria-label="TikTok" title="TikTok"><img class="img-fluid" style="max-height: 50px;"
+                            src="img/assets/social/tiktok-app-icon.svg" alt="TikTok"></a></li>
+                      <li class="social__item"><a href="https://www.instagram.com/taliferrogroup/" target="_blank" aria-label="Instagram"><img class="img-fluid" style="max-height: 50px;"
+                            src="img/assets/social/ig-instagram-icon.svg" alt="Instagram"></a></li>
+                      <li class="social__item"><a href="https://flipboard.com/@taliferrogroup/taliferro-group-0vb37ucdz?from=share&utm_source=flipboard&utm_medium=share" target="_blank"
+                          aria-label="Flipboard" title="Flipboard"><img class="img-fluid" style="max-height: 50px;" src="img/assets/social/flipboard-icon.svg" alt="Flipboard"></a></li>
+                      <li class="social__item"><a href="https://www.linkedin.com/company/taliferro/" target="_blank" aria-label="LinkedIn" title="LinkedIn"><img class="img-fluid"
+                            style="max-height: 50px;" src="img/assets/social/linkedin-app-icon.svg" alt="LinkedIn"></a></li>
+                      <li class="social__item"><a href="https://www.youtube.com/channel/UCbSklLhEDs-4kld584LtdlQ" target="_blank" aria-label="YouTube" title="YouTube"><img class="img-fluid"
+                            style="max-height: 50px;" src="img/assets/social/youtube-app-icon.svg" alt="YouTube"></a></li>
+                      <li class="social__item"><a href="https://www.pinterest.com/tyshowers0160/" target="_blank" aria-label="Pinterest" title="Pinterest"><img class="img-fluid"
+                            style="max-height: 50px;" src="img/assets/social/pinterest-app-icon.svg" alt="Pinterest"></a></li>
+                      <li class="social__item"><a href="https://twitter.com/TaliferroLLC" target="_blank" aria-label="X" title="X"><img class="img-fluid" style="max-height: 50px;"
+                            src="img/assets/social/x-social-media-logo-icon.png" alt="X"></a></li>
+                    </ul>
+                  </section>
+                </div>
+                <div class="col-lg-8 text-lg-start text-center">
+                  <section class="widget widget_text">
+                    <div class="textwidget">
+                      <p><small>© 2024 <a href="https://taliferro.com">Taliferro Group</a>. Taliferro Is Registered In The U.S. Patent And Trademark Office.</small></p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </div>
+  <canvas id="js-webgl"></canvas>
+  <div class="arts-cursor" id="js-arts-cursor">
+    <div class="arts-cursor__wrapper">
+      <div class="arts-cursor__follower js-arts-cursor__follower">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <circle class="arts-cursor__stroke-inner js-arts-cursor__stroke-inner" cx="25" cy="25" r="24" style="opacity: 0.6;"></circle>
+          <circle class="arts-cursor__stroke-outer js-arts-cursor__stroke-outer" cx="25" cy="25" r="24" style="stroke-dashoffset: 252.327; stroke-dasharray: 0px, 999999px;"></circle>
+        </svg>
+      </div>
+      <div class="arts-cursor__arrows">
+        <div class="arts-cursor__arrow arts-cursor__arrow_up material-icons keyboard_arrow_up js-arts-cursor__arrow-up"></div>
+        <div class="arts-cursor__arrow arts-cursor__arrow_right material-icons keyboard_arrow_right js-arts-cursor__arrow-right"></div>
+        <div class="arts-cursor__arrow arts-cursor__arrow_down material-icons keyboard_arrow_down js-arts-cursor__arrow-down"></div>
+        <div class="arts-cursor__arrow arts-cursor__arrow_left material-icons keyboard_arrow_left js-arts-cursor__arrow-left"></div>
+      </div>
+      <div class="arts-cursor__wrapper-label">
+        <div class="arts-cursor__label js-arts-cursor__label"></div>
+      </div>
+      <div class="arts-cursor__wrapper-icon">
+        <div class="arts-cursor__icon js-arts-cursor__icon"></div>
+      </div>
+    </div>
+  </div>
+  <svg class="spinner d-lg-none" id="js-spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+    <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+  </svg>
+  <div class="transition-curtain" id="js-page-transition-curtain"></div>
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" data-arts-theme-text="light">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+      <div class="pswp__container">
+        <div class="pswp__item">
+          <div class="pswp__img pswp__img--placeholder"></div>
+        </div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <div class="pswp__counter"></div>
+          <button class="pswp__button pswp__button--close" title="Close (Esc)" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+            data-arts-cursor-hide-native="true"></button>
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+            data-arts-cursor-hide-native="true"></button>
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pswp__button pswp__button--arrow--left material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+          data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
+        <div class="pswp__button pswp__button--arrow--right material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+          data-arts-cursor-hide-native="true">keyboard_arrow_right</div>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center text-center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/vendor.js"></script>
+  <script src="js/components.js"></script>
+</body>
+
+</html>
